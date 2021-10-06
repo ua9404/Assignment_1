@@ -1,7 +1,7 @@
 import turtle
 
 
-def draw_rectangle():
+def draw_shape_rectangle():
     turtle.up()
     turtle.goto(100, 100)
     turtle.down()
@@ -17,4 +17,5 @@ def draw_rectangle():
     turtle.end_fill()
     turtle.done()
 
-draw_rectangle()
+
+
