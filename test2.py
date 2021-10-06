@@ -41,12 +41,36 @@ def test_shape_rectangle_perimeter(h, l):
     x = draw_shape_rectangle_perimeter(100, 100)
     assert (x == 200)
 
+
+def circle_will_fit(x, y, z):
+    return True
+
+def test_circle_will_fit(x=100):
+    X = x.circle_will_fit
+    assert (X == True)
+
+
+def triangle_will_fit():
+    return True
+
+def test_triangle_will_fit(x, y, z):
+    x = turtle.xcor(80)
+    assert (x == 80)
+
+    y = turtle.ycor(80)
+    assert (y == 80)
+
+    z = turtle.zcor(80)
+    assert (z == 80)
+
 def run_all_tests():
     test_goto()
     test_rectangle_will_fit()
     test_shape_rectangle()
     draw_shape_rectangle_perimeter()
     test_shape_rectangle_perimeter()
+    test_circle_will_fit()
+    test_triangle_will_fit()
 
 run_all_tests()
 
