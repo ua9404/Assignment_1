@@ -25,6 +25,6 @@ if __name__ == '__main__':
     print_hi('PyCharm')
 
 # See PyCharm help at https://www.jetbrains.com/help/pycharm/
-def rectangle_will_fit(x, y, lenght, height):
+def rectangle_will_fit(x, y, l, h):
     return
 
