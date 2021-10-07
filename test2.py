@@ -7,6 +7,9 @@ def test_goto():
     assert(turtle.xcor() == 60)
     assert(turtle.ycor() == 60)
 
+def rectangle_will_fit():
+    return True
+
 def test_rectangle_will_fit(x, y, l, h):
     x = x.rectangle_will_fit(-200)
     assert (x == False)
