@@ -34,10 +34,10 @@ def test_shape_rectangle(shape, x, y, color):
      assert (color == "red")
 
 def draw_shape_rectangle_perimeter(h, l):
-    return (h+l)
+    return (h+l+h+l)
 
 
-def test_shape_rectangle_perimeter(h, l):
+def test_shape_rectangle_perimeter():
     x = draw_shape_rectangle_perimeter(100, 100)
     assert (x == 200)
 
